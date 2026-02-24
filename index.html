@@ -51,105 +51,10 @@
   <p> а. ФХНЗКЧ - ПРИВЕТ, k=5
       б.ЦЩЕБФ - ВЕСНА, k=20 </p>
   <p> 3. Шифрование фамилии "Чуперка" -  ЩПЧТЧК k=10</p>
-  
-</body>
-  <h2>20 января 2026 </h2>
 
 
-  <style>
-    /* Подключение шрифта Pudelinko */
-    @font-face {
-      font-family: 'Pudelinko';
-      src: url('fonts/Pudelinko.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
 
-    /* Стили для фона и текста */
-    body {
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(to bottom, #0c1445, #1a237e);
-      color: white;
-      font-family: 'Pudelinko', cursive;
-      min-height: 100vh;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 4rem;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-      animation: glow 2s infinite alternate;
-    }
-
-    @keyframes glow {
-      from { text-shadow: 0 0 10px #fff, 0 0 20px #fff; }
-      to   { text-shadow: 0 0 20px #fff, 0 0 30px #ff99cc; }
-    }
-
-    /* Снежинки */
-    .snowflakes {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      z-index: -1;
-    }
-
-    .snowflake {
-      position: absolute;
-      color: #fff;
-      font-size: 1.2em;
-      top: -10px;
-      opacity: 0.8;
-      user-select: none;
-    }
-
-    /* Анимация падения */
-    @keyframes fall {
-      to {
-        transform: translateY(105vh) rotate(360deg);
-      }
-    }
-  </style>
-
-  <h1>С Новым Годом! ❄️</h1>
-
-  <!-- Контейнер для снежинок -->
-  <div class="snowflakes" id="snowflakes"></div>
-
-  <script>
-    // Создаём снежинки
-    const snowflakesContainer = document.getElementById('snowflakes');
-    const snowflakeCount = 100;
-
-    for (let i = 0; i < snowflakeCount; i++) {
-      const snowflake = document.createElement('div');
-      snowflake.innerHTML = '❄';
-      snowflake.classList.add('snowflake');
-
-      // Случайные параметры
-      const size = Math.random() * 1.5 + 0.5;
-      const posX = Math.random() * 100;
-      const delay = Math.random() * 5;
-      const duration = Math.random() * 5 + 5;
-
-      snowflake.style.left = `${posX}vw`;
-      snowflake.style.fontSize = `${size}em`;
-      snowflake.style.opacity = Math.random() * 0.5 + 0.3;
-      snowflake.style.animation = `fall ${duration}s linear ${delay}s infinite`;
-
-      snowflakesContainer.appendChild(snowflake);
-    }
-  </script>
-</body>
-</html>
+ 
         </body>
   <h2>18 февраля 2026 </h2>
         Топ-3 предсказаний:
@@ -157,4 +62,11 @@ pug: 96.40%
 Griffon Bruxellois: 1.64%
 Bullmastiff: 0.98%
 
- 
+        </body>
+  <h2> 24 февраля 2026 </h2>
+ Вопрос пользователя: Сколько ждать мой заказ?
+Найден FAQ-вопрос: Как быстро доставляется заказ? (sim=0.706)
+Ответ бот-FAQ: Наш стандартный срок доставки — 3–5 рабочих дней.
+
+
+
